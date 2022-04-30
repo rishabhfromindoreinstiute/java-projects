@@ -11,7 +11,7 @@ class random {
         int count=0;
         int number=ran.nextInt(100);
         do{
-            System.out.println("Entered the number for guessing 0 to 100:");
+            System.out.println("Here Entered the number for guessing 0 to 100:");
             inp=sc.nextInt();
             count++;
             if(inp==number){
@@ -27,6 +27,5 @@ class random {
         }while(inp>=0);
         System.out.println("Guessing number is :"+number);
         System.out.println("You guess the number in :"+count+" number of trials.");
-
     }   
 }
